@@ -1,3 +1,7 @@
+# Import packages
+import numpy as np
+from Bio.PDB import PDBIO,  Atom, Residue, Chain, Model, Structure
+
 # Generate a single guanine base
 def generate_guanine_base(center, rot):
     base = []
